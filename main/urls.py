@@ -11,5 +11,6 @@ urlpatterns =[
     path('student_list', views.student_list, name='student_list'),
     path('form', views.form, name='form'),
     path('about', views.about, name='about'),
+    path('404', views.custom_404_view, name='custom_404'),
 ]
 # ]+ static(settings.STATIC_URL, document_root=settings.STATIC_ROOT) 
